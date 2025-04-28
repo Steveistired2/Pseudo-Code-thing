@@ -2,4 +2,9 @@
 #April 17, 2025
 
 #Create a settings for the starting area, having 3 choices for a path to take: dirt road, stone road, rocky ramp
-#
+starting_areas = ['Dirt Road', 'Stone Road', 'Rocky Ramp']
+choice = float(raw_input("Where do you want to go? "))
+
+#Print out statement about the path to go
+print(f"You go on the ______.")
+
